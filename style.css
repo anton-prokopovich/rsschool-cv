@@ -15,6 +15,7 @@ body {
 
 .name {
   margin-top: 90px;
+  margin-left: 200px;
 }
 
 .name p {
@@ -25,4 +26,21 @@ body {
 .name h1 {
   font-size: 50px;
   font-weight: 700;
+}
+
+.about-information {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.photo {
+  position: relative;
+  top: -130px;
+}
+
+.photo img {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #3f3f44;
 }
