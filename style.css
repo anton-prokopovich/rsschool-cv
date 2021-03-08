@@ -41,20 +41,16 @@ body {
   display: flex;
   width: 800px;
   margin: 5px auto 5px auto;
-  /* background: yellow; */
   justify-content: space-between;
-  /* border-bottom: 2px solid #3f3f44; */
 }
 
 .photo {
   position: relative;
-  /* top: -130px; */
 }
 
 .photo img {
   width: 280px;
   height: 280px;
-  /* border: 1px solid #3f3f44; */
   border-radius: 50%;
 }
 
@@ -92,21 +88,22 @@ body {
 .goal {
   display: flex;
   flex-direction: column;
-  /* background: red; */
   height: 150px;
   width: 800px;
   margin: 30px auto 0 auto;
 }
 
 .goal h2,
-.skills h2 {
+.skills h2,
+.examples h2 {
   margin: 0 auto;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.goal p {
+.goal p,
+.examples p {
   font-size: 20px;
   font-weight: 300;
 }
@@ -114,7 +111,6 @@ body {
 .skills {
   display: flex;
   flex-direction: column;
-  /* background: red; */
   height: 150px;
   width: 800px;
   margin: 30px auto 0 auto;
@@ -130,4 +126,21 @@ body {
 
 .skills-list li:first-child {
   margin-bottom: 10px;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.examples a {
+  text-decoration: none;
+  color: #3f3f44;
+}
+
+.examples a:hover {
+  color: #6e89c3;
 }
