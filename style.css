@@ -96,7 +96,8 @@ body {
 .goal h2,
 .skills h2,
 .examples h2,
-.experience h2 {
+.experience h2,
+.education h2 {
   margin: 0 auto;
   font-size: 20px;
   font-weight: 700;
@@ -118,7 +119,8 @@ body {
   margin: 30px auto 0 auto;
 }
 
-.skills-list {
+.skills-list,
+.education-list {
   display: flex;
   flex-direction: column;
   list-style-type: circle;
@@ -146,4 +148,16 @@ body {
 
 .examples a:hover {
   color: #6e89c3;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.education li {
+  margin-bottom: 10px;
 }
