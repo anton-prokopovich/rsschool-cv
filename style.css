@@ -1,12 +1,17 @@
+html {
+  background: #eae5e5;
+}
+
 body {
   width: 1024px;
   margin: 0 auto;
   font-family: "Noto Sans JP", sans-serif;
+  background: #ffffff;
 }
 
 .header-wrapper {
   display: flex;
-  height: 250px;
+  height: 225px;
   background: #2451af;
   color: #fdfdfd;
   justify-content: center;
@@ -14,7 +19,7 @@ body {
 }
 
 .name {
-  margin-top: 90px;
+  margin-top: 50px;
   margin-left: 200px;
 }
 
@@ -28,19 +33,79 @@ body {
   font-weight: 700;
 }
 
+.main-wrapper {
+  color: #3f3f44;
+}
+
 .about-information {
   display: flex;
-  width: 900px;
-  margin: 0 auto;
+  width: 800px;
+  margin: 5px auto 5px auto;
+  /* background: yellow; */
+  justify-content: space-between;
+  /* border-bottom: 2px solid #3f3f44; */
 }
 
 .photo {
   position: relative;
-  top: -130px;
+  /* top: -130px; */
 }
 
 .photo img {
   width: 280px;
   height: 280px;
-  border: 1px solid #3f3f44;
+  /* border: 1px solid #3f3f44; */
+  border-radius: 50%;
+}
+
+.contact {
+  margin-right: 180px;
+  margin-top: 145px;
+}
+
+.contact h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.contact-list li:first-child {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #3f3f44;
+}
+
+.contact-list a:hover {
+  color: #6e89c3;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  height: 150px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.goal h2 {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.goal p {
+  font-size: 20px;
+  font-weight: 300;
 }
