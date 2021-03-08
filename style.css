@@ -95,7 +95,8 @@ body {
 
 .goal h2,
 .skills h2,
-.examples h2 {
+.examples h2,
+.experience h2 {
   margin: 0 auto;
   font-size: 20px;
   font-weight: 700;
@@ -103,7 +104,8 @@ body {
 }
 
 .goal p,
-.examples p {
+.examples p,
+.experience p {
   font-size: 20px;
   font-weight: 300;
 }
@@ -128,7 +130,8 @@ body {
   margin-bottom: 10px;
 }
 
-.examples {
+.examples,
+.experience {
   display: flex;
   flex-direction: column;
   height: 100px;
