@@ -161,3 +161,37 @@ body {
 .education li {
   margin-bottom: 10px;
 }
+
+.footer-wrapper {
+  display: flex;
+  height: 100px;
+  background: #2451af;
+  color: #fdfdfd;
+}
+
+.footer-content {
+  width: 800px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-wrapper img {
+  width: 80px;
+  height: 80px;
+}
+
+.github {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-size: 16px;
+}
+
+.github:hover {
+  color: #6e89c3;
+}
+
+.footer-content p {
+  font-size: 16px;
+}
