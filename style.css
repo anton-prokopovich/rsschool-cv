@@ -98,7 +98,8 @@ body {
   margin: 30px auto 0 auto;
 }
 
-.goal h2 {
+.goal h2,
+.skills h2 {
   margin: 0 auto;
   font-size: 20px;
   font-weight: 700;
@@ -108,4 +109,25 @@ body {
 .goal p {
   font-size: 20px;
   font-weight: 300;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  height: 150px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.skills-list li:first-child {
+  margin-bottom: 10px;
 }
