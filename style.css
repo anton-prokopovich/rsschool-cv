@@ -1,0 +1,197 @@
+html {
+  background: #eae5e5;
+}
+
+body {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+  background: #ffffff;
+}
+
+.header-wrapper {
+  display: flex;
+  height: 225px;
+  background: #2451af;
+  color: #fdfdfd;
+  justify-content: center;
+  border-bottom: 3px solid #3f3f44;
+}
+
+.name {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.name p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.name h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.main-wrapper {
+  color: #3f3f44;
+}
+
+.about-information {
+  display: flex;
+  width: 800px;
+  margin: 5px auto 5px auto;
+  justify-content: space-between;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.contact {
+  margin-right: 180px;
+  margin-top: 145px;
+}
+
+.contact h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.contact-list li:first-child {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #3f3f44;
+}
+
+.contact-list a:hover {
+  color: #6e89c3;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.goal h2,
+.skills h2,
+.examples h2,
+.experience h2,
+.education h2 {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.goal p,
+.examples p,
+.experience p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.skills-list,
+.education-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.skills-list li:first-child {
+  margin-bottom: 10px;
+}
+
+.examples,
+.experience {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.examples a {
+  text-decoration: none;
+  color: #3f3f44;
+}
+
+.examples a:hover {
+  color: #6e89c3;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+.education li {
+  margin-bottom: 10px;
+}
+
+.footer-wrapper {
+  display: flex;
+  height: 100px;
+  background: #2451af;
+  color: #fdfdfd;
+}
+
+.footer-content {
+  width: 800px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-wrapper img {
+  width: 80px;
+  height: 80px;
+}
+
+.github {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-size: 16px;
+}
+
+.github:hover {
+  color: #6e89c3;
+}
+
+.footer-content p {
+  font-size: 16px;
+}
