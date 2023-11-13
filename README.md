@@ -1,1 +1,1 @@
-https://anton-prokopovich.github.io/rsschool-cv/cv
+https://anton-prokopovich.github.io/rsschool-cv/
