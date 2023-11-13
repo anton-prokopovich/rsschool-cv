@@ -34,3 +34,19 @@ function repeatStr (n,s) {
 ```  
 
 ## Education  
+
+* Belarussian State University of Informatics and Radioelectronics, Minsk  
+
+## Courses  
+
+* Web application development with JavaScript, IT - Academy, Minsk
+* Codecademy  
+* HTMLAcademy  
+
+## Language  
+
+* English: Pre-Intermediate (A2+)  
+
+## Hobbies  
+
+Football | Fishing | Running  
